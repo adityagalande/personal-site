@@ -1,0 +1,16 @@
+html {
+  background-color: #BADA55;
+}
+
+.titleBackground {
+  background-image: url(src/titlebackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+/* footer {
+  height: 400px;
+  background-color: black;
+} */
