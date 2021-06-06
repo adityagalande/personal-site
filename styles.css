@@ -10,6 +10,14 @@ html {
   height: 600px;
 }
 
+.navbar {
+  font-size: 23px;
+}
+
+.nav-link {
+  margin: 0 10px 0 10px;
+}
+
 /* footer {
   height: 400px;
   background-color: black;
