@@ -2,24 +2,22 @@ html {
   background-color: #BADA55;
 }
 
+body {
+  font-family: Josefin sans, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #555;
+}
+
 .titleBackground {
-  background-image: url(src/titlebackground.jpg);
+  background-image: url(src/header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100vh;
+  width: 100%;
   display: flex;
 }
-
-/* #xxx{
-  display: inline-block;
-  background-color: red;
-  width: 70%;
-  height: 400px;
-  margin-top: -50px;
-  margin-left: 20%;
-  margin-right: 20%;
-} */
 
 .navbar {
   font-size: 23px;
@@ -61,31 +59,73 @@ html {
   color: #282828;
 }
 
-.fa-facebook-f:hover{
+.fa-facebook-f:hover {
   color: #4267B2;
   transform: scale(1.3);
 }
-.fa-twitter:hover{
-color: #00acee;
-transform: scale(1.3);
+
+.fa-twitter:hover {
+  color: #00acee;
+  transform: scale(1.3);
 }
-.fa-instagram:hover{
-color: #cd486b;
-transform: scale(1.3);
+
+.fa-instagram:hover {
+  color: #cd486b;
+  transform: scale(1.3);
 }
-.fa-github:hover{
+
+.fa-github:hover {
   color: black;
   transform: scale(1.3);
 }
-.fa-linkedin-in:hover{
-color: #0077b5;
-transform: scale(1.3);
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+  transform: scale(1.3);
 }
 
+#secAbout {
+  display: flex;
+  padding: 5.5rem;
+}
 
-/* .about {
+.about {
   width: 60%;
-  height: 400px;
-  margin: -50px auto 50px auto;
-  background-color: gold;
-} */
+  margin: 8vh auto;
+  text-align: center;
+  /* text-align: justify; */
+  font-family: Josefin sans, sans-serif;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #555;
+  box-sizing: content-box;
+  padding: 2rem;
+  /* box-shadow: 5px 3px 8px #888888; */
+}
+
+.about h2 {
+  font-size: 3.75rem;
+  text-align: center;
+  padding: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-top: 2.4rem;
+}
+
+.btns {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #293335;
+  padding: 1.15rem 2.60rem;
+  border: 1px solid #293335;
+  border-radius: 10rem;
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 17%);
+  transition: all .2s;
+  margin-top: 2.2rem;
+}
