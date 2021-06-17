@@ -21,7 +21,14 @@ body {
 
 .navbar {
   font-size: 23px;
+  background-color: transparent;
 }
+
+
+.bgcolor.scrolled {
+  background-color: red;
+}
+
 
 .nav-link {
   margin: 0 10px 0 10px;
@@ -246,5 +253,5 @@ body {
 
 footer {
   height: 30vh;
-  background-color: black;
+  background-color: #293335;
 }
