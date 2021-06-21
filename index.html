@@ -36,13 +36,13 @@
               <a class="nav-link" href="#secSkills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#secEducation">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#secExperience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,8 +52,9 @@
   <div>
     <section id="titleBack" class="titleBackground">
       <div class="innerTitle">
-        <h1 style="color:white; font-size: 57px;">Hello, I’m Aditya</h1>
-        <p style="color:white; font-size: 23px;">Adventures in C++, iOS, Unix, and the biggest of all..Life!. Adventures in C++, iOS, Unix, and the biggest of all..Life!. Adventures in C++, iOS, Unix, and the biggest of all..Life!.</p>
+        <h1>Aditya Galande</h1>
+        <h2>I'm a <span class="animate"></span></h2>
+        <p>Adventures in C++, iOS, Unix, and the biggest of all..Life!. Adventures in C++, iOS, Unix, and the biggest of all..Life!. Adventures in C++, iOS, Unix, and the biggest of all..Life!.</p>
         <div class="centerdiv">
           <a class="icons" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
           <a class="icons" href="#"><i class="fab fa-2x fa-twitter"></i></a>
@@ -266,16 +267,97 @@
       </div>
     </section>
 
+    <!-- ______________________________________________________EDUCATION_______________________________________________________-->
 
-    <section style="height: 40vh; background-color: #f9f9f9;">
+    <section id="secEducation">
+      <div class="projects">
+        <div class="projss">
+          <h2 class="h2Headings">Education</h2>
+        </div>
 
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <hr class="hrDesign">
+              <div class="projectDiv">
+                <img class="eduLogo" src="src/kbpLogo.png" alt="">
+                <p class="project_P"><span>Maharashtra State Board of Technical Education</span></p>
+                <p class="project_P">Diploma in Computer Technology.</p>
+                <p class="project_P">Grade - First Class with Distinction.</p>
+                <p class="project_P">July 2017 - May 2019</p>
+                <p class="project_P"><span>Activities & societies</span> - Event Organization Team.</p>
+                <p class="project_P"><span>Coursework</span> - Data Structures, Database Management, Object Oriented Programming, Software Testing.</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <hr class="hrDesign">
+              <div class="projectDiv">
+                <img class="eduLogo" src="src/sppuLogo.png" alt="">
+                <p class="project_P"><span>Savitribai Phule Pune University</span></p>
+                <p class="project_P">Bachelor of Engineering - Computer Engineering.</p>
+                <p class="project_P">Grade - 8.76 cgpa</p>
+                <p class="project_P">July 2019 - May 2022</p>
+                <p class="project_P"><span>Activities</span> - The Board Member of NSS and organised many events on college campus.</p>
+                <p class="project_P"><span>Coursework</span> - Data Structures, Software Engineering, Artificial Intelligence, Object Oriented Modeling and Design, Software Testing and Quality Assurance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-  </div>
-  <footer>
 
-  </footer>
+<!-- ______________________________________________________EXPERIENCE_______________________________________________________-->
+
+    <section id="secExperience">
+      <div class="projects">
+        <div class="projss">
+          <h2 class="h2Headings">Experience</h2>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <hr class="hrDesign">
+              <div class="projectDiv">
+                <p class="project_P">
+                <h3><span>APTRON Solutions Pvt. Ltd.</span></h3>
+                </p>
+                <p class="project_P">May 2018 - June 2018</p>
+                <p class="project_P">Project Developer</p>
+                <ul>
+                  <li>Developed and implemented algorithm for detection and classification problem using deep learning algorithms.</li>
+                  <li>Designed pipeline of the whole project to get it incorporated in the product of the company. Created visualization tool for the project which gives the detailed outcome of error analysis.</li>
+                  <li>Implemented multiprocessing pipeline between different modules which efficiently reduced the memory consumption and improved processing speed.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer id="footer"></footer>
+
+
+
   <script src="index.js" charset="utf-8"></script>
+  <script src="typed.js"></script>
+  <script>
+    var typed = new Typed('.animate', {
+      strings: [
+        'Web Developer',
+        'Android Enthusiast',
+        'Coder'
+      ],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
 </body>
 
 </html>
