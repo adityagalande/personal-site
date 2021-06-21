@@ -140,6 +140,19 @@ span {
   /* box-shadow: 5px 3px 8px #888888; */
 }
 
+@media (max-width: 500px) {
+  .about {
+    width: 100%;
+    padding: 0;
+    background-color: red;
+  }
+
+  #secAbout{
+    padding: 0.5rem 0.1rem;
+    /* margin: 100px auto; */
+  }
+}
+
 .h2Headings {
   font-size: 3.75rem;
   text-align: center;
@@ -284,7 +297,7 @@ span {
 
 .eduLogo {
   width: 190px;
-  height: 160px; 
+  height: 160px;
   margin: 10px 0 40px 0;"
 }
 
