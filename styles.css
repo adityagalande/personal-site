@@ -140,7 +140,7 @@ span {
   /* box-shadow: 5px 3px 8px #888888; */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .about {
     width: 100%;
     padding: 0;
@@ -151,6 +151,28 @@ span {
     padding: 0.5rem 0.1rem;
     /* margin: 100px auto; */
   }
+
+  .titleBackground {
+    background-image: url(src/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+  }
+/*
+  .icons {
+    height: 35px;
+    width: 35px;
+  } */
+
+  .innerTitle {
+    width: 90%;
+    margin: auto;
+    align-content: flex-start;
+  }
+
 }
 
 .h2Headings {
