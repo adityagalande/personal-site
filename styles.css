@@ -140,7 +140,7 @@ span {
   /* box-shadow: 5px 3px 8px #888888; */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 973px) {
   .about {
     width: 100%;
     padding: 0;
