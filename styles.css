@@ -45,7 +45,7 @@ span {
 }
 
 .innerTitle h1 {
-  color:white;
+  color: #fff;
   font-size: 3.125rem;
 }
 
@@ -66,7 +66,7 @@ span {
 .centerdiv {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
 }
 
@@ -86,6 +86,7 @@ span {
 .fab {
   transition: all 0.3s linear;
   color: #282828;
+  font-size: 2.5rem;
 }
 
 .fa-facebook-f:hover {
@@ -138,43 +139,6 @@ span {
   box-sizing: content-box;
   padding: 2rem;
   /* box-shadow: 5px 3px 8px #888888; */
-}
-
-@media (max-width: 999px) {
-  .about {
-    width: 80%;
-    padding: 0;
-    font-size: 2.5rem;
-    /* background-color: blue; */
-  }
-
-  #secAbout{
-    padding: 0.5rem 0.1rem;
-    /* margin: 100px auto; */
-  }
-
-  .titleBackground {
-    background-image: url(src/header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 2.2rem;
-    height: 60vh;
-    width: 100%;
-    display: flex;
-  }
-/*
-  .icons {
-    height: 35px;
-    width: 35px;
-  } */
-
-  .innerTitle {
-    width: 80%;
-    margin: auto;
-    align-content: flex-start;
-  }
-
 }
 
 .h2Headings {
@@ -329,4 +293,54 @@ span {
 footer {
   height: 30vh;
   background-color: #293335;
+}
+
+
+/* ----------------------------------------MEDIA_QUERY---------------------------------------- */
+
+@media (max-width: 999px) {
+  .about {
+    width: 80%;
+    padding: 0;
+    font-size: 2.5rem;
+    /* background-color: blue; */
+  }
+
+  #secAbout{
+    padding: 0.5rem 0.1rem;
+    /* margin: 100px auto; */
+  }
+
+  .titleBackground {
+    background-image: url(src/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 2.2rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .btns {
+    padding: 2.25rem 3.60rem;
+    font-size: 2.25rem;
+  }
+
+  .innerTitle {
+    width: 80%;
+    margin: auto;
+    align-content: flex-start;
+  }
+/* ------------------------------- */
+#titleBack {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerdiv {
+  justify-content: center;
+}
+
 }
