@@ -354,14 +354,11 @@ footer {
 
 .centerdiv {
   text-align: left;
+  justify-content: center;
 }
 
 /* ---------------projects--------------- */
 
-/* .projects p {
-  /* width: 80%; */
-  color: red;
-} */
 
 .h3Design {
   text-align: left;
