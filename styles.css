@@ -311,6 +311,13 @@ footer {
     /* margin: 100px auto; */
   }
 
+  .btns {
+    padding: 2.25rem 3.60rem;
+    font-size: 2.25rem;
+  }
+
+  /* ------------------------------- */
+
   .titleBackground {
     background-image: url(src/header.jpg);
     background-size: cover;
@@ -322,17 +329,11 @@ footer {
     display: flex;
   }
 
-  .btns {
-    padding: 2.25rem 3.60rem;
-    font-size: 2.25rem;
-  }
-
   .innerTitle {
     width: 80%;
     margin: auto;
     align-content: flex-start;
   }
-/* ------------------------------- */
 #titleBack {
   text-align: center;
   justify-content: center;
@@ -357,11 +358,11 @@ footer {
 
 /* ---------------projects--------------- */
 
-.projects {
+.projects p {
   width: 80%;
   padding: 0;
   font-size: 2.5rem;
-  /* background-color: red; */
+  color: red;
 }
 
 }
