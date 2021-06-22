@@ -353,17 +353,23 @@ footer {
 }
 
 .centerdiv {
-  justify-content: center;
+  text-align: left;
 }
 
 /* ---------------projects--------------- */
 
-.projects p {
-  width: 80%;
-  padding: 0;
-  margin: 0;
-  font-size: 2.5rem;
+/* .projects p {
+  /* width: 80%; */
   color: red;
+} */
+
+.h3Design {
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+.project_P {
+  font-size: 2.5rem;
 }
 
 }
