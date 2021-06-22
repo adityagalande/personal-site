@@ -144,7 +144,8 @@ span {
   .about {
     width: 80%;
     padding: 0;
-    background-color: red;
+    font-size: 2.5rem;
+    background-color: #BADA55;
   }
 
   #secAbout{
