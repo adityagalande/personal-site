@@ -145,7 +145,7 @@ span {
     width: 80%;
     padding: 0;
     font-size: 2.5rem;
-    /* background-color: #BADA55; */
+    /* background-color: blue; */
   }
 
   #secAbout{
@@ -159,7 +159,7 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     font-size: 2.2rem;
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     display: flex;
   }
@@ -170,7 +170,7 @@ span {
   } */
 
   .innerTitle {
-    width: 90%;
+    width: 80%;
     margin: auto;
     align-content: flex-start;
   }
