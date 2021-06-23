@@ -286,7 +286,7 @@ span {
 
 /* ---------------------------------------FOOTER------------------------------------ */
 footer {
-  height: 30vh;
+  /* height: 30vh; */
   background-color: #293335;
   text-align: center;
 }
@@ -301,7 +301,8 @@ footer {
 .usa {
   display: inline-block;
   text-align: center;
-  margin-top: 30px;
+  margin: 5rem;
+  /* margin-top: 30px; */
 }
 
 .usa p {
