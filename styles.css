@@ -288,6 +288,24 @@ span {
 footer {
   height: 30vh;
   background-color: #293335;
+  text-align: center;
+}
+
+.footerCenterdiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.usa {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.usa p {
+  margin-top: 20px;
 }
 
 /* ----------------------------------------MEDIA_QUERY---------------------------------------- */
@@ -359,7 +377,8 @@ footer {
   .project_P {
     font-size: 2.5rem;
   }
-/* --------------------Experience---------------------- */
+
+  /* --------------------Experience---------------------- */
   #secExperience p, li {
     font-size: 2.5rem;
   }
