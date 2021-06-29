@@ -14,3 +14,23 @@ function animNav() {
 }
 
 window.addEventListener('scroll', animNav);
+
+
+
+// class xyz {
+//   private int a, b;
+//
+//   public xyz(int a, int b){
+//     a = this.a;
+//     b = this.b;
+//   }
+//
+//   public void getAdditionOfData(){
+//     return this.a + this.b;
+//   }
+//
+//   public static void main(String args[]) {
+//     xyz zz = new xyz(2,3);
+//     System.out.println(zz.getAdditionOfData());
+//   }
+// }
