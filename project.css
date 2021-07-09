@@ -1,5 +1,10 @@
 body {
+  font-family: Josefin sans, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #555;
   margin: 0;
+  background-color: #f9f9f9;
 }
 
 .mainDiv {
@@ -14,6 +19,7 @@ body {
 }
 
 .jsProjectDiv {
+  background-color: #F0F8FF;
   display: flex;
   align-items: center;
   border: 0.1px solid #F0F0F0;
@@ -43,15 +49,29 @@ body {
 .fab {
   transition: all 0.3s linear;
   color: #282828;
-  font-size: 2.5rem;
-}
-
-.fa-instagram:hover {
-  color: #cd486b;
-  transform: scale(1.3);
+  font-size: 2.2rem;
 }
 
 .fa-github:hover {
   color: black;
   transform: scale(1.3);
+}
+
+.fas {
+  transition: all 0.3s linear;
+  color: #282828;
+  font-size: 2rem;
+}
+
+.fa-external-link-alt:hover {
+  color: #4267B2;
+  transform: scale(1.3);
+}
+
+.JsH2Headings {
+  font-size: 3.75rem;
+  text-align: center;
+  padding: 1.25rem;
+  margin-bottom: 20px;
+  color: #555;
 }
